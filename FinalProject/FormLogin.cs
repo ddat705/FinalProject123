@@ -21,7 +21,7 @@ namespace FinalProject
         {
             if (e.KeyChar == 13)
             {
-                Form f = new Form1();
+                Form f = new FormTable();
                 this.Hide();
                 f.ShowDialog();
                 this.Show();
