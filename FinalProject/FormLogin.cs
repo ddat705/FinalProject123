@@ -21,7 +21,7 @@ namespace FinalProject
         {
             if (e.KeyChar == 13)
             {
-                Form f = new Form1();
+                Form f = new FormTaiKhoan();
                 this.Hide();
                 f.ShowDialog();
                 this.Show();
@@ -30,7 +30,7 @@ namespace FinalProject
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            Form f = new Form1();
+            Form f = new FormTaiKhoan();
             this.Hide();
             f.ShowDialog();
             this.Show();
