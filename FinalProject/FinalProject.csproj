@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,11 +47,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FormTable.cs">
+    <Compile Include="Form333.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormTable.Designer.cs">
-      <DependentUpon>FormTable.cs</DependentUpon>
+    <Compile Include="Form333.Designer.cs">
+      <DependentUpon>Form333.cs</DependentUpon>
+    </Compile>
+    <Compile Include="1111m1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1111m1.Designer.cs">
+      <DependentUpon>1111m1.cs</DependentUpon>
     </Compile>
     <Compile Include="FormLogin.cs">
       <SubType>Form</SubType>
@@ -58,31 +65,22 @@
     <Compile Include="FormLogin.Designer.cs">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormMenu.cs">
+    <Compile Include="FormXuLy.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormMenu.Designer.cs">
-      <DependentUpon>FormMenu.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FormQuanLi.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormQuanLi.Designer.cs">
-      <DependentUpon>FormQuanLi.cs</DependentUpon>
+    <Compile Include="FormXuLy.Designer.cs">
+      <DependentUpon>FormXuLy.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FormTable.resx">
-      <DependentUpon>FormTable.cs</DependentUpon>
+    <EmbeddedResource Include="Form333.resx">
+      <DependentUpon>Form333.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormMenu.resx">
-      <DependentUpon>FormMenu.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormQuanLi.resx">
-      <DependentUpon>FormQuanLi.cs</DependentUpon>
+    <EmbeddedResource Include="FormXuLy.resx">
+      <DependentUpon>FormXuLy.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
