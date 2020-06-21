@@ -15,6 +15,7 @@ namespace FinalProject
         public Form1()
         {
             InitializeComponent();
+            label4.Text = "aasdsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss";
         }
 
         private void Form1_Load(object sender, EventArgs e)

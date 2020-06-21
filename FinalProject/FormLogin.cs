@@ -27,5 +27,13 @@ namespace FinalProject
                 this.Show();
             }
         }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            Form f = new Form1();
+            this.Hide();
+            f.ShowDialog();
+            this.Show();
+        }
     }
 }
