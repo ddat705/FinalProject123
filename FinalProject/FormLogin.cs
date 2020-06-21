@@ -21,11 +21,19 @@ namespace FinalProject
         {
             if (e.KeyChar == 13)
             {
-                Form f = new FormTable();
+                Form f = new FormTaiKhoan();
                 this.Hide();
                 f.ShowDialog();
                 this.Show();
             }
+        }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            Form f = new FormTaiKhoan();
+            this.Hide();
+            f.ShowDialog();
+            this.Show();
         }
     }
 }
